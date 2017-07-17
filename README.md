@@ -3,7 +3,7 @@
 Library for SX01: Analog In Sensor
 
 ## About the SX01
-This ☒CHIP is equipped to detect an input voltage. The sensor is based on the Texas Instruments ADC081C021 8Bit Analog to digital converter. The sensing range for the SX01 ranges from 0V to a absolute maximum of 3.3V on the IN terminal. 
+This ☒CHIP is equipped to detect an input voltage. The sensor is based on the Texas Instruments ADC081C021 8Bit Analog to Digital converter. The sensing range for the SX01 ranges from 0V to a absolute maximum of 3.3V on the IN terminal. 
 
 The SX01 module is housed in an extremely compact 2U×2U chip. 
 
