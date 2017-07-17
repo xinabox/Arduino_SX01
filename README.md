@@ -1,6 +1,8 @@
 # ☒CHIP SX01
 <img src="extras/SX01.png" width="300" align="right">
-Library for SX01: Analog In Sensor
+Library for SX01: Analog In Sensor.
+
+This module can be purchased on [Xinabox CC](https://xinabox.cc/SX01/).
 
 ## About the SX01
 This ☒CHIP is equipped to detect an input voltage. The sensor is based on the Texas Instruments ADC081C021 8Bit Analog to Digital converter. The sensing range for the SX01 ranges from 0V to a absolute maximum of 3.3V on the IN terminal. 
