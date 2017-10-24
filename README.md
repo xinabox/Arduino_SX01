@@ -1,5 +1,5 @@
 # ☒CHIP SX01
-<img src="extras/SX01.png" width="300" align="right">
+<img src="extras/SX01 V0.5.0.JPG" width="300" align="right">
 Library for SX01: Analog In Sensor.
 
 This module can be purchased on [Xinabox CC](https://xinabox.cc/SX01/).
