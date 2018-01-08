@@ -11,7 +11,7 @@ The SX01 module is housed in an extremely compact 2U×2U chip.
 
 More information on the ADC081C021 can be found in the [datasheet](http://www.ti.com/lit/ds/symlink/adc081c021.pdf).
 
-## Requirments
+## Requirements
   - [☒Core Library](https://github.com/xinabox/xCore)
   - [Arduino IDE 1.8.1](https://www.arduino.cc/en/main/software)
   - ☒CHIP CWO1 or CC01 or CR01
