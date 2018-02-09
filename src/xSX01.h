@@ -18,9 +18,6 @@
 #include <inttypes.h>
 #include "xCore.h"
 
-// Device I2C Address
-#define ADC_I2C_ADDRESS			0x5A
-
 // System Defines
 #define ADC_REG_RESULT			0x00
 #define ADC_REG_ALERT			0x01
@@ -53,6 +50,7 @@ class xSX01: public xCoreClass
 		* Creates a new instance of Sensor class.
 		*/	
 		xSX01();
+		xSX01(uint8_t addr);
 
 		/*
 		* Runs the setup of the sensor. 
@@ -86,6 +84,9 @@ class xSX01: public xCoreClass
 		* @return none.
 		*/	
 		void 	readVoltage(void);
+		
+		// Device I2C Address
+		uint8_t ADC_I2C_ADDRESS;
 
 		float	voltage;
 		uint8_t a,b;
