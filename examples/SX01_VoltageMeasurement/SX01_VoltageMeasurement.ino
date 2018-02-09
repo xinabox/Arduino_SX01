@@ -10,18 +10,22 @@
     
   The sensor communicates over the I2C Bus.
 
-  ------------------------TIPS--------------------------
-  ----->Wire.begin(2,14); Communication with CW01
-  
 *************************************************************/
 
 #include <xCore.h>
 #include <xSX01.h>
 
+xSX01 SX01;
+
 void setup() {
   // Start the Serial Monitor
   Serial.begin(115200);
 
+   // Set the I2C Pins for CW01
+	#ifdef ESP8266
+	  Wire.pins(2, 14);
+	  Wire.setClockStretchLimit(15000);
+  #endif
   // Start the I2C Communication
   Wire.begin();
 
