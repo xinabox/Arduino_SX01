@@ -92,6 +92,4 @@ class xSX01: public xCoreClass
 		uint8_t a,b;
 };
 
-extern xSX01 SX01;
-
 #endif
