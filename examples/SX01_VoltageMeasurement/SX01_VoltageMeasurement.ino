@@ -3,7 +3,7 @@
   Analog IN - Max Input 3.3V
   
   You can buy one on our store!
-  -----> https://xinabox.cc/SX01/
+  -----> https://xinabox.cc/products/SX01/
   
   This example measures the input voltage on the SX01
   and displays it on the Serial Monitior
@@ -13,7 +13,7 @@
 *************************************************************/
 
 #include <xCore.h>
-#include <xSX01.h>
+#include <Arduino_SX01.h>
 
 xSX01 SX01;
 

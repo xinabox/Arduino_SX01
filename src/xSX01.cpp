@@ -11,7 +11,7 @@
 	ADC081C021 - http://www.ti.com/lit/ds/symlink/adc081c021.pdf
 */
 
-#include <xSX01.h>
+#include <Arduino_SX01.h>
 #include <math.h>
 
 /********************************************************
