@@ -13,7 +13,7 @@
 *************************************************************/
 
 #include <xCore.h>
-#include <arduino-SX01.h>
+#include <xSX01.h>
 
 xSX01 SX01;
 
