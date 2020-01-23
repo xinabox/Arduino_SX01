@@ -1,3 +1,6 @@
+[![Build Status](https://travis-ci.org/xinabox/arduino-SX01.svg?branch=master)](https://travis-ci.org/xinabox/arduino-SX01)
+[![GitHub issues](https://img.shields.io/github/issues/xinabox/arduino-SX01.svg)](https://github.com/xinabox/arduino-SX01/issues)
+
 # ☒CHIP SX01
 <img src="extras/SX01 V0.5.0.JPG" width="35%" height="auto" align="right">
 Library for SX01: Analog In Sensor.
